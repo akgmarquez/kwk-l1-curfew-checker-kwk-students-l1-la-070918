@@ -1,6 +1,9 @@
 def simple_curfew_checker(time)
-  # code goes here
-end
+if 12 > 11
+  puts "You're in trouble! Better get home quick!"
+else
+  puts "You're still under curfew!"
+endend
 
 def curfew_checker(time)
   # code goes here
