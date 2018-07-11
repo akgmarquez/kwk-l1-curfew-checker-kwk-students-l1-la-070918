@@ -3,6 +3,8 @@ if 12 > 11
   puts "You're in trouble! Better get home quick!"
 end
 
+puts simple_curfew_checker(time)
+
 def curfew_checker(time)
   # code goes here
 end
