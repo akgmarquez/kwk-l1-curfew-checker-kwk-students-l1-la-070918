@@ -1,6 +1,7 @@
 def simple_curfew_checker(time)
   if time >= 11
     puts "You're in trouble if it's later than 11"
+  end
 end
 
 puts simple_curfew_checker(time)
@@ -10,6 +11,7 @@ def curfew_checker(time)
     puts "You're in trouble if it's 11"
   else
     puts "You can keep having fun!"
+  end
 end
 
 puts curfew_checker(time)
@@ -21,7 +23,7 @@ def complex_curfew_checker(time)
     puts "You're right on time"
   else
     puts "You can keep having fun!"
-  
+  end
 end
 
 def deluxe_curfew_checker(time)
