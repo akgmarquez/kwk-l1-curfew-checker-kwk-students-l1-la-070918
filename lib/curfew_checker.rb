@@ -1,6 +1,6 @@
 def simple_curfew_checker(time)
-if time >= 11
-  puts "You're in trouble if it's later than 11"
+  if time >= 11
+    puts "You're in trouble if it's later than 11"
 end
 
 puts simple_curfew_checker(time)
@@ -15,10 +15,11 @@ end
 puts curfew_checker(time)
 
 def complex_curfew_checker(time)
-if 12 < 11
+if time <= 11
   puts "You're in trouble! Better get home quick!"
-elsif
-  puts "You're"
+elsif time >= 11
+  puts "You're right on time"
+  
 end
 
 def deluxe_curfew_checker(time)
