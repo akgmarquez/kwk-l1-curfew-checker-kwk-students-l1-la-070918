@@ -1,8 +1,8 @@
-def curfew_checker(time<=curfew)
+def curfew_checker(time)
 if 12 <= 11
   puts "You're in trouble! Better get home quick!"
 else
   puts "You can keep having fun!"
 end
 
-puts curfew_checker(time<=curfew)
+puts curfew_checker(time)
