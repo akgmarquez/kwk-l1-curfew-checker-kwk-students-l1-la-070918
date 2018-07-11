@@ -6,7 +6,10 @@ end
 puts simple_curfew_checker(time)
 
 def curfew_checker(time)
-if 
+if 12 < 11
+  puts "You're in trouble! Better get home quick!"
+elsif
+  puts ""
 end
 
 def complex_curfew_checker(time)
